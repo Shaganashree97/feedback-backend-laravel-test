@@ -1,5 +1,7 @@
 <?php
 
+// app/Models/Feedback.php
+
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
@@ -23,3 +25,4 @@ class Feedback extends Model
         return $this->belongsTo(Faculty::class, 'course_faculty_id');
     }
 }
+
